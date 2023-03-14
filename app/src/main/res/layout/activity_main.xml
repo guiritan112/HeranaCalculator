@@ -69,7 +69,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_open_bracket"
-                android:backgroundTint="#7E7B7B"
+                android:backgroundTint="#FF9800"
                 android:text="("
                 />
             <com.google.android.material.button.MaterialButton
@@ -81,7 +81,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_close_bracket"
-                android:backgroundTint="#7E7B7B"
+                android:backgroundTint="#FF9800"
                 android:text=")"
                 />
             <com.google.android.material.button.MaterialButton
@@ -89,7 +89,7 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="32dp"
+                android:textSize="40dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_divide"
@@ -112,6 +112,7 @@
                 android:textSize="32dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:id="@+id/button_7"
                 android:text="7"
                 />
@@ -124,6 +125,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_8"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="8"
                 />
             <com.google.android.material.button.MaterialButton
@@ -135,6 +137,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_9"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="9"
                 />
             <com.google.android.material.button.MaterialButton
@@ -142,7 +145,7 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="32dp"
+                android:textSize="40dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_multiply"
@@ -166,6 +169,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_4"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="4"
                 />
             <com.google.android.material.button.MaterialButton
@@ -177,6 +181,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_5"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="5"
                 />
             <com.google.android.material.button.MaterialButton
@@ -188,6 +193,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_6"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="6"
                 />
             <com.google.android.material.button.MaterialButton
@@ -219,6 +225,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_1"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="1"
                 />
             <com.google.android.material.button.MaterialButton
@@ -230,6 +237,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_2"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="2"
                 />
             <com.google.android.material.button.MaterialButton
@@ -241,6 +249,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_3"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="3"
                 />
             <com.google.android.material.button.MaterialButton
@@ -248,7 +257,7 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="32dp"
+                android:textSize="40dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_minus"
@@ -284,6 +293,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_0"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="0"
                 />
             <com.google.android.material.button.MaterialButton
@@ -295,6 +305,7 @@
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_dot"
+                android:backgroundTint="@color/cardview_dark_background"
                 android:text="."
                 />
             <com.google.android.material.button.MaterialButton
