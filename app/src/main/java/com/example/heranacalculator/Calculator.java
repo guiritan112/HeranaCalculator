@@ -10,6 +10,7 @@ import com.google.android.material.button.MaterialButton;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 
+
 public class Calculator extends AppCompatActivity implements View.OnClickListener {
 
     TextView resultTv,solutionTv;
