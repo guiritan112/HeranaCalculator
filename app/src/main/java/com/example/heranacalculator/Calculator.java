@@ -48,8 +48,6 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
 
     }
 
-    //s
-
     void assignId(MaterialButton btn,int id){
         btn = findViewById(id);
         btn.setOnClickListener(this);
@@ -71,7 +69,6 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
             return;
 
         }
-        //ss
         if(buttonText.equals("C")){
             try {
                 dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length()-1);
