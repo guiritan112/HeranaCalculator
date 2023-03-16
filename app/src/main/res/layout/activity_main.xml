@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_alignParentBottom="true"
-        android:background="#F1F1F1"
+        android:background="#535050"
         android:paddingVertical="16dp"
         android:id="@+id/buttons_layout">
 
