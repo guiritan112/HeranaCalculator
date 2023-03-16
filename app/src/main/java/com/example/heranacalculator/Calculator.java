@@ -72,9 +72,23 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
             solutionTv.setText(resultTv.getText());
             return;
         }
+
         if(buttonText.equals("C")){
-            dataToCalculate = dataToCalculate.substring(0,dataToCalculate.length()-1);
-        }else{
+            try {
+                dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length()-1);
+
+                if(dataToCalculate.length() == 0){
+                    solutionTv.setText("");
+                    resultTv.setText((""));
+                    return;
+
+                }
+            }
+            catch(Exception e){
+                return;
+            }
+        }
+        else {
             dataToCalculate = dataToCalculate+buttonText;
         }
         solutionTv.setText(dataToCalculate);
