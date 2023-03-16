@@ -37,7 +37,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
         assignId(buttonEquals,R.id.button_equals);
         assignId(button0,R.id.button_0);
         assignId(button1,R.id.button_1);
-        assignId(button2,R.id.button_2);
+        assignId(button2,R.id.ToDoList);
         assignId(button3,R.id.button_3);
         assignId(button4,R.id.button_4);
         assignId(button5,R.id.button_5);

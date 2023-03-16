@@ -1,5 +1,7 @@
 package com.example.heranacalculator;
 
+import static com.example.heranacalculator.R.id.list;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -24,6 +26,15 @@ public class MainUI extends AppCompatActivity {
                 Intent intent = new Intent(MainUI.this, Calculator.class);
                 startActivity(intent);
             }
+        });
+
+        Button buttonlist;
+
+       buttonlist=findViewById(R.id.list);
+        buttonlist.setOnClickListener(v -> {
+
+            Intent intent = new Intent(MainUI.this, ToDoList.class);
+            startActivity(intent);
         });
     }
 }
