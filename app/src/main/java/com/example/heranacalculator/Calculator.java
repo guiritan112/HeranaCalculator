@@ -10,7 +10,7 @@ import com.google.android.material.button.MaterialButton;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class Calculator extends AppCompatActivity implements View.OnClickListener {
 
     TextView resultTv,solutionTv;
     MaterialButton buttonC,buttonBrackOpen,buttonBrackClose;
@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
-
-    //s
 
     void assignId(MaterialButton btn,int id){
         btn = findViewById(id);
